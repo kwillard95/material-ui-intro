@@ -38,7 +38,7 @@ export default function CoffeeCard(props) {
     <Card variant="outlined">
       <CardHeader
         avatar={
-          <Avatar style={{width: '50px'}} src={avatarSrc} />
+          <Avatar src={avatarSrc} />
         }
         action={
           <IconButton aria-label="settings">
@@ -48,7 +48,7 @@ export default function CoffeeCard(props) {
         title={title}
         subheader={subTitle}
       />
-      <CardMedia style={{height: '150px'}} image={imgSrc} title="Best Coffee Maker" />
+      <CardMedia style={{height: '250px'}} image={imgSrc} title="Best Coffee Maker" />
       <CardContent>
         <Typography variant="body2" component="p">
           {description}
